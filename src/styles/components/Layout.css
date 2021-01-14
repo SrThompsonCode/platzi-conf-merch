@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #3c484e;
+}
+
+.Main {
+  padding: 10px;
+  grid-template-columns: minmax(auto, 768px);
+  display: grid;
+  justify-content: center;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden; /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
+  display: flex; /*enables flex content for its children*/
+  justify-content: center;
+}
+
+main {
+  height: calc(100vh - 8rem);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+}
