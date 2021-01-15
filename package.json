@@ -17,6 +17,7 @@
     "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-hook-form": "^6.14.0",
     "react-paypal-button": "^4.1.1",
     "react-paypal-button-v2": "^2.6.2",
@@ -47,13 +48,5 @@
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0",
     "webpack-dev-server": "^3.11.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test",
-      "...": "..."
-    }
-  },
-  "description": ""
+  }
 }
